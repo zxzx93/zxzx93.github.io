@@ -1,0 +1,11 @@
+*{padding: 0; margin: 0;}
+body{padding-top: 50px;}
+
+#join_all{margin: 0 auto; width: 300px;background-color: #cccccc29; height: 260px;}
+.join{font-size: 15px; font-weight: 700;background-color: #f97878;padding: 10px 120px;}
+form{margin-top: 50px;}
+form p{font-size: 12px; padding:10px; }
+form input:nth-child(3){
+	margin-top: 30px; padding:4px; font-size: 12px;
+}
+#valueError{color:red;}

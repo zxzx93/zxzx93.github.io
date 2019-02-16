@@ -1,0 +1,14 @@
+
+*{padding: 0; margin: 0;}
+body{padding-top: 50px;}
+
+#login_all{
+	margin: 0 auto; width: 300px;background-color: #cccccc29; height: 250px;
+}
+span{display: inline-block; padding:10px 127px;font-size: 15px; background-color: #f97878; font-weight: 700;}
+form{margin-top: 20px;}
+form p{font-size: 12px; padding:4px }
+form input:nth-child(3){
+	margin-top: 30px;
+}
+#join{margin-top: 10px}
