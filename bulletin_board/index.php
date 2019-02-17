@@ -39,13 +39,13 @@
  
   if(isset($_SESSION['Member'])) {
   echo $_SESSION['Member']['userid'];?>님 안녕하세요.&nbsp;
-  <button onclick="location.href='./logout.php'">로그아웃</button>
+  <button onclick="location.href='./logout.php'" style="padding:3px 7px;">로그아웃</button>
 <?php
  	}
   	else {
  ?>
-  		<button onclick="location.href='./login.php'">로그인</button>
-  		<br />
+  		<button onclick="location.href='./login.php'" style="padding: 3px 7px;">로그인</button>
+
 <?php   
  		}
 
@@ -53,7 +53,7 @@
 	while($rows = $result->fetch_array(MYSQLI_ASSOC)){ //DB 저장된 데이터 한 행씩 연관배열로 패치
 		if($total%2==0){ //짝수
 ?>                      
-		<tr class = "even">  <!-- 짝수 경우만 색 변환-->
+		<tr class = "color_change">  <!-- 짝수 경우만 색 변환 -->
 <?php   
 		}
 		else{

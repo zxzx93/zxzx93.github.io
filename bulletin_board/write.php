@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['Member'])){
+echo "<script>alert('로그인을 해주세요.'); location.href='./index.php'</script>";
+}
+?>
+
 <!DOCTYPE>
 
 <html>
@@ -19,7 +26,7 @@
 					<table class = "table2">
 						<tr>
 							<td>작성자</td>
-							<td><input type = "text" name = "name" size="20"> </td>
+							<td><input type = "text" name = "name" value="<?=$_SESSION['Member']['userid']?>"></td>
 						</tr>
 
 						<tr>

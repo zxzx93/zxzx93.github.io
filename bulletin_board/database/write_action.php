@@ -1,8 +1,5 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT'].'/bulletin_board/connect/connect.php';
- 
-$dbConnection->set_charset("utf8");
-
 
 
 $id = $_POST["name"];                  

@@ -1,0 +1,10 @@
+*{margin: 0px ; padding: 0px;}
+form{margin:30px auto;}
+table{margin: 0 auto; border-collapse: collapse;}
+table .t_head{background-color:#f97878;  font-weight: 700; font-size: 15px;height: 30px; }
+.table2{width:710px; background-color:#f1f1f199;}
+.table2 td{background-color: #f1f1f199;padding:10px 0px;}
+.table2 tr>td:nth-child(1){background: #dedede; width: 75px;font-size: 13px;text-align: center;}
+
+.table2 tr>td:nth-child(2){padding: 0 10px; padding-bottom: 15px;}
+.submit{margin: 30px}

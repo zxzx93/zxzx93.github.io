@@ -15,9 +15,9 @@ $result = $dbConnection->query($query);
 
 if($result->num_rows == 1) {
 
-		$row = $result->fetch_array(MYSQLI_ASSOC);
+		$rows = $result->fetch_array(MYSQLI_ASSOC);
 		$_SESSION['Member'] = array();
-		$_SESSION['Member']['userid'] = $row['id'];
+		$_SESSION['Member']['userid'] = $rows['id'];
 
 		if(isset($_SESSION['Member'])){
 
