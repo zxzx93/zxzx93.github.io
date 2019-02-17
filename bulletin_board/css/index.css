@@ -2,7 +2,7 @@ h2{font-size: 15px; padding:20px;background-color:#f97878;}
 table{border-top: 1px solid #444444;border-collapse: collapse;}
 tr{border-bottom: 1px solid #444444;padding: 10px;font-size: 13px;}
 td{border-bottom: 1px solid #efefef ;padding: 10px 30px;}
-table .even{background: #efefef;}
+table .color_change{background: #efefef;}
 .text{text-align:center; padding: 50px 0px; color:#000000;}
 .write{font-size: 13px; cursor: pointer; width: 50px;margin: 0 auto;}
 .write:hover{text-decoration: underline;} 
